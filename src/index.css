@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.animation, .animation_layer{
+  display: block;
+  position: relative;
+  height: 100%;
+  z-index: 10;
+}
+.animation_layer{
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+.animation_layer.parallax{
+  position: fixed;
+}
+ #artBack{
+  background-image: url(./assets/imagens/background1.jpg);
+ }
